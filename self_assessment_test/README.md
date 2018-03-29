@@ -1,11 +1,10 @@
-# Exercise Sheet 1
+# Self-assessment Test
 
 In this exercise sheet you will implement a *binary tree storing integers* and follow
 some core principles of modular programming. The purpose of the exercise is to
 check (for yourself) whether you are sufficiently fluent in using the C programming
 language. Most exercises in this course will build directly on top of what
-you learned in the previous semester (mainly 703004 - Introduction to
-Programming).
+you learned in the previous semester.
 
 If you are struggling with this exercise sheet, please consider doing this course at a later point in your studies. Otherwise you need to be prepared for the fact that subsequent exercises will probably require greater effort from you than originally planned by us.
 

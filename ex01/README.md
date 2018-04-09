@@ -1,4 +1,4 @@
-# Exercise Sheet 2
+# Exercise Sheet 1
 
 In this exercise you will be asked to work with a shell. The idea is to get familiar with some Unix commands and bash programming.
 

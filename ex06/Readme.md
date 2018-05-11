@@ -14,7 +14,9 @@ Write a program which spawns 10 threads.
 
 In this exercise you will implement a single producer multiple consumer pattern. 
 
-Your program should spawn 5 threads, the *consumers*, which all try to read elements from a queue (you can use e.g. the C++ `std::queue`). Queued elements are of type `unsigned`.
+Your program should spawn 5 threads, the *consumers*, which all try to read elements from a queue. Queued elements are of type `unsigned`.
+
+> Note:  You can use e.g. the C++ `std::queue` (a short example demonstrating its usage is provided in [producer_consumer.cpp](producer_consumer.cpp)) or the basic C queue that is provided in [myqueue.h](myqueue.h) (a short example demonstrating its usage is provided in [producer_consumer.c](producer_consumer.c)).
 
 * When a consumer thread successfully reads an element, it adds it to its local `sum`. When the element is 0, it prints out the sum and exits.
 

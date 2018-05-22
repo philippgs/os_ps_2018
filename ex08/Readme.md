@@ -30,16 +30,15 @@ for the scheduling algorithms
 2. SPN (Shortest Process Next)
 3. SRT (Shortest Remaining Time Next)
 4. Round Robin
-5. Highest Priority First with preemption
-6. Highest Priority First without preemption
-7. Lottery Scheduling
+5. Priority Scheduling with preemption
+6. Priority Scheduling without preemption
+7. Lottery Scheduling (requires parameters: number of tickets, quantum, quantum usage or "Anteil")
 
 Note the following additional requirements:
 
-* The number of processes must be between 4 and 6
-* The processes' arrival times must be between 0 and 6
-* The processes' service times must be between 2 and 6
-* Any time quanta must be lower than 5
+* The number of processes must be > 4
+* The processes' arrival times must be >= 0
+* The processes' service times must be between 1 and 100
 
 Also note that choosing the same value for e.g. the service times for all processes is not allowed. There must be some variation.
 

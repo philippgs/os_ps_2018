@@ -22,7 +22,7 @@ Create a chart describing how these processes are assigned to the CPU according 
 
 * *turnaround time*
 * *response time*
-* *throughput*
+* *wait time* ("Wartezeit")
 
 for the scheduling algorithms
 

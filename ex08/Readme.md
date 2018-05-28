@@ -32,7 +32,7 @@ for the scheduling algorithms
 4. Round Robin
 5. Priority Scheduling with preemption
 6. Priority Scheduling without preemption
-7. Lottery Scheduling (requires parameters: number of tickets, quantum, quantum usage or "Anteil") - if you have trouble with this scheduling algorithm, please have a look at [this example](lottery.md).
+7. Lottery Scheduling (requires parameters: number of tickets, quantum, quantum usage or "Anteil") - if you have trouble with this scheduling algorithm, please have a look at [this example](lottery.md). Note that re-using the provided example data set is NOT allowed.
 
 Note the following additional requirements:
 

@@ -1,4 +1,4 @@
-# Exercise Sheet 8
+# Exercise Sheet 9
 
 In this exercise sheet you will use POSIX threads and perform different types of memory management within them.
 

@@ -10,8 +10,8 @@ Your task is to implement mutual execlusion to shared memory via semaphores for 
 
 * The program should attach a **shared memory segment** capable of holding a **single integer** value and initialize it with the value `0`.
 * The program should spawn a **child process** that is able to work simultaneously next to the parent process. Furthermore, the child process must have access to the **same shared memory segment**.
-* The child process should **increment** the integer value in the shared memory segment **1000 times** and then exit.
-* The parent process should **decrement** the integer value **1001 times** and afterwards **wait for the child** process to finish.
+* The child process should **increment** the integer value in the shared memory segment **1001 times** and then exit.
+* The parent process should **decrement** the integer value **1000 times** and afterwards **wait for the child** process to finish.
 * Access to the shared memory segment should be **protected by a semaphore** (you are free to choose between POSIX and System V semaphores - pick whichever you are more comfortable with).
 * After waiting for the child to finish, the parent process should **print the content** of the shared memory segment, which should be `1` at this point, and exit.
 

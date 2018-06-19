@@ -4,7 +4,7 @@ The goal of the following assignment is to check every solution of each scheduli
 
 **Note: The following steps must be completed in Windows!**
 
-1) Download and extract the scheduling simulator tool available at http://dps.uibk.ac.at/~philipp/scheduling_tool.zip.
+1) Download and extract the scheduling simulator tool available at http://dps.uibk.ac.at/~philipp/scheduling_tool_windows.zip (Windows) and http://dps.uibk.ac.at/~philipp/scheduling_tool_linux.zip (Linux).
 2) In the extracted folder, run the `start.bat` script
 3) Select "Scheduling"
 4) Enter your own data set using the "+ Process"-Button on the lower left
